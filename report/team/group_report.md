@@ -5,70 +5,82 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: Nhóm T Liệt
 - Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu):
-- Quyết định cuối: Go / Not Yet / No-Go
+- Candidate problem được chọn (1 câu): Người bán đồ ăn trong group Facebook Chợ Vinhomes phải thường xuyên trực và lướt group để phát hiện kịp bài tìm món phù hợp với món mình bán.
+- Quyết định cuối: Chưa chốt Go / Not Yet / No-Go; lựa chọn đề tài ở CP3 chưa thay thế việc kiểm chứng và đánh giá ở CP4–CP6.
 
 ---
 
 ## 2. Hội tụ nhóm (CP3)
 
+Theo kết quả lựa chọn do nhóm cung cấp, shortlist gồm 3 đề tài bên dưới; đề tài được chọn để đào sâu là người bán đồ ăn phải trực group Chợ Vinhomes. Đề tài knowledge công ty được gộp từ vấn đề tổng hợp/tra cứu thông tin của Nguyễn Tuấn Dũng và câu hỏi HR lặp lại của Khuất Tiến Minh. Đề tài thứ ba là ý #3 của CP1 của Trần Tuấn Đăng: chuẩn bị báo cáo kỹ thuật sau khi hoàn thành task code hoặc module AI (được phát triển thành Card #2 ở CP2).
+
+Phần này tổng hợp từ báo cáo cá nhân và quyết định nhóm đã cung cấp, không phải biên bản đầy đủ các lượt pitch. Các điểm số và lý do so sánh bên dưới là bản nháp đề xuất để nhóm xác nhận; chưa có dữ liệu phỏng vấn hay nhật ký câu hỏi phản biện thực tế.
+
 ### 2.1. Pitch
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+| 1 | Nguyễn Minh Thông — Card #1 | Khi cư dân đăng bài tìm món trong group Chợ Vinhomes, người bán muốn phát hiện kịp bài phù hợp, để có thể phản hồi mà không phải lướt group liên tục. | Người bán đồ ăn trong group; cần xác định khu Vinhomes và loại món cụ thể. | Theo dõi group và đọc các bài để tìm nhu cầu phù hợp; thời gian thực tế chưa đo. | Chưa có ghi chép câu hỏi và người hỏi; nhóm bổ sung sau buổi pitch. |
+| 2 | Nguyễn Tuấn Dũng + Khuất Tiến Minh — gộp thành đề tài knowledge công ty | Khi cần hiểu quyết định dự án hoặc quy định nội bộ, nhân viên muốn tìm được thông tin có căn cứ và còn hiệu lực, để làm đúng việc mà không phải hỏi lại PIC hoặc HR nhiều lần. | Nhân viên, người mới, PIC và HR. | Tìm thông tin rải rác, xác minh nguồn và chờ người phụ trách giải thích; chưa có số đo chung. | Chưa có ghi chép câu hỏi và người hỏi; nhóm bổ sung sau buổi pitch. |
+| 3 | Trần Tuấn Đăng — CP1 ý #3, CP2 Card #2 | Khi hoàn thành một task code hoặc module AI, tôi muốn có sẵn khung báo cáo kỹ thuật (annotated Markdown), để điền ngay kết quả mà không mất công nghĩ cách trình bày. | Học viên, sinh viên, lập trình viên; mentor/giảng viên là người đọc. | Tổng hợp log, trình bày code và giải thích logic; CP1 nêu 45–60 phút/báo cáo, Card #2 xác định phần viết giải thích khoảng 30 phút. Đây là số liệu trong báo cáo cá nhân, chưa kiểm chứng ở CP4. | Chưa có ghi chép câu hỏi và người hỏi; nhóm bổ sung sau buổi pitch. |
 
 ### 2.2. Cluster
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A | | |
-| B | | |
-| C | | |
+| A — Phát hiện nhu cầu mua món | Người bán đồ ăn phải trực group Chợ Vinhomes — Nguyễn Minh Thông. | Nhu cầu phù hợp xuất hiện giữa nhiều bài đăng; người bán phải liên tục theo dõi để phát hiện kịp. |
+| B — Knowledge công ty | Tra cứu/tổng hợp thông tin và lý do quyết định dự án — Nguyễn Tuấn Dũng; HR trả lời câu hỏi chính sách lặp lại — Khuất Tiến Minh. | Nhân viên khó tìm được thông tin có nguồn, còn hiệu lực; phụ thuộc vào người đang nắm kiến thức để giải thích lại. |
+| C — Báo cáo kỹ thuật | Chuẩn bị báo cáo sau khi hoàn thành task code hoặc module AI — Trần Tuấn Đăng, CP1 ý #3 / CP2 Card #2. | Phải gom kết quả thực thi, log và code rồi tổ chức thành báo cáo có phần giải thích logic rõ ràng. |
+
+**Ranh giới đề tài B:** Gộp nhu cầu tra cứu kiến thức và chính sách nội bộ. Không gộp nghiệp vụ kiểm tra chấm công, tính phép, tính lương hoặc phê duyệt nhân sự vào cùng phạm vi. Kiến thức kỹ thuật và chính sách HR vẫn cần chủ sở hữu, nguồn và quyền truy cập riêng.
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME: 
-├── Opportunity A: 
-├── Opportunity B: 
-└── Opportunity C: 
+OUTCOME: Giảm thời gian người bán phải trực group Chợ Vinhomes
+         mà vẫn phát hiện kịp các bài tìm món phù hợp.
+         Baseline, target và cách đo cụ thể: cần bổ sung sau CP4.
+├── Opportunity A: Bài tìm món phù hợp nằm lẫn giữa nhiều bài không liên quan.
+├── Opportunity B: Người bán khó nắm được bài mới khi đang chuẩn bị hoặc giao đồ ăn.
+└── Opportunity C: Người bán phải đọc nội dung và đối chiếu với món mình đang bán.
 ```
 
-Những ý đã gạch bỏ vì là solution đội lốt opportunity:
+Các nhánh trên là giả định cần kiểm chứng ở CP4; cây chỉ tập trung vào đề tài đã chọn, không trộn ba nhóm người dùng khác nhau vào một outcome.
 
--
+Ví dụ cần loại khỏi tầng opportunity nếu xuất hiện khi thảo luận (chưa có biên bản xác nhận nhóm đã nêu các ý này): “bot quét group”, “chatbot bán hàng”, “tự động bình luận chào hàng”. Đây là phương án giải quyết, chưa phải nhu cầu hoặc pain.
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
+**Điểm đề xuất, chưa phải điểm nhóm đã thống nhất.** Thang điểm 1 = yếu/chưa rõ, 5 = mạnh/rõ. “Pain có bằng chứng” hiện chấm thận trọng theo nội dung báo cáo cá nhân; chưa đề tài nào được xem là đã kiểm chứng với người dùng ở CP4.
+
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
+| 1. Người bán đồ ăn trực group Chợ Vinhomes | 4 | 4 | 2 | 4 | 4 | 4 | 3 | 25 |
+| 2. Tra cứu knowledge công ty, gồm kiến thức dự án và chính sách HR | 3 | 3 | 2 | 3 | 2 | 4 | 4 | 21 |
+| 3. Chuẩn bị báo cáo kỹ thuật sau task code/module AI | 4 | 5 | 3 | 4 | 4 | 4 | 4 | 28 |
 
-**Candidate được chọn:**
+**Căn cứ cho điểm đề xuất:**
 
-**Vì sao chọn:**
+- Đề tài 1 có người dùng và hoạt động chính tương đối rõ; có thể đo thời gian trực group và độ trễ phát hiện bài. Điểm bằng chứng còn thấp vì báo cáo cá nhân chưa có người bán xác nhận, chưa có số liệu thật; quyền tiếp cận group và khả năng lấy dữ liệu chưa được kiểm tra.
+- Đề tài 2 gần trải nghiệm công việc của Dũng và Minh, tuy nhiên, trên thị trường đã có nhiều bên, nhiều công ty đã áp dụng, thậm chí là bán sản phẩm.
+- Đề tài 3 là một đề tài rất hay, khi làm ổn sẽ là 1 impact lớn, tuy nhiên về giới hạn công nghệ và kinh nghiệm hiện tại của team vẫn đang chưa đủ khả năng để bàn luận hướng đào sâu về mặt công nghệ.
 
-**Vì sao loại các candidate còn lại:**
+**Candidate được chọn:** Đề tài 1 — Người bán đồ ăn phải trực group Chợ Vinhomes, theo quyết định nhóm đã cung cấp.
 
-**Xử lý bất đồng (nếu có):**
+**Vì sao chọn:** Nhóm xác định đây là đề tài khả thi nhất để tiếp tục đào sâu. Lý do chi tiết đề xuất để nhóm xác nhận: có thể giới hạn nghiệp vụ, tệp khác hàng, một nhóm món và một khung giờ bán; hoạt động phát hiện nhu cầu có thể quan sát và đo được. Trước khi chốt hướng giải quyết, phải kiểm chứng người bán thực sự tốn thời gian hoặc bỏ lỡ bài phù hợp, và nhóm có cách tiếp cận dữ liệu được phép.
+
+Trong bảng điểm đề xuất, đề tài 3 đang cao hơn đề tài 1 vì báo cáo cá nhân mô tả quy trình và thời gian rõ hơn. Nhóm giữ lựa chọn đề tài 1 theo quyết định đã cung cấp; cần bổ sung căn cứ thực tế cho việc ưu tiên này sau thảo luận, không điều chỉnh điểm chỉ để khớp lựa chọn.
+
+**Vì sao không chọn các candidate còn lại ở vòng này — lý do đề xuất để nhóm xác nhận:**
+
+- **Knowledge công ty:** Phạm vi sau khi gộp còn rộng; cần tách quyền truy cập, xác định chủ sở hữu và tình trạng cập nhật của từng nguồn. Có thể quay lại nếu thu hẹp được vào một loại câu hỏi và có tài liệu thực tế để kiểm chứng. Ngoài ra trên thị trường, Odoo hay Jira cũng đều đã có chức năng này
+- **Báo cáo kỹ thuật:** Cần phân biệt thời gian định dạng với thời gian tự hiểu và giải thích code; template có thể xử lý phần cấu trúc nhưng chưa rõ giảm được bao nhiêu thời gian. Nếu dùng AI soạn nháp, phải kiểm tra độ chính xác và quy định cho phép dùng AI của từng loại báo cáo. Đây vẫn là candidate khả thi, chưa có căn cứ kết luận kém hơn đề tài 1 về mọi tiêu chí.
+
+**Xử lý bất đồng (nếu có):** Chưa có thông tin về bất đồng hoặc cách nhóm xử lý; nhóm bổ sung theo thảo luận thực tế.
 
 ---
 
