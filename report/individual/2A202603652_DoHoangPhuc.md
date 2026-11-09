@@ -7,7 +7,7 @@
 
 - Họ tên: Đỗ Hoàng Phúc
 - MSSV: 2A202603652
-- Email trường: dohoangphuc795@gmail.com
+- Email trường: 26ai.phucdh@vinuni.edu.vn
 - Tên nhóm: Nhóm T Liệt (NhomTLiet)
 - Link repo nhóm: https://github.com/dzungapr6th99/K5-L3A-Day02-NhomTLiet-DiscoveryProblemFraming.git
 
