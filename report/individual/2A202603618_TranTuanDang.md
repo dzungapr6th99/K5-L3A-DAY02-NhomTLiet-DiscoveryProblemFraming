@@ -142,16 +142,16 @@ HIỆN TẠI — Phụ thuộc tin nhắn
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Trình bày Problem Card #1 và Card #2 trước nhóm | Card #2 bị loại vì tiêu chí đánh giá "chất lượng văn phong" khó đo khách quan |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Tại sao người dùng cần dùng sản phẩm của mình thay vì các app đặt hàng như Shoppee Food, Grab, Be và xây dựng AI vào ứng dụng và hướng phát triển của AI đóng vai trò thế nào| Giúp nhóm nhận ra chưa làm nổi bật được Lợi thế cạnh tranh. Nhóm sau đó xác định lại ngách cụ thể mà AI làm tốt hơn |
+| Nhận phản biện | Câu hỏi tôi nhận được: Nếu dùng AI để viết phần giải thích logic code, làm sao nhóm đo lường được chất lượng văn phong hay làm sao giảng viên hay mentor biết sinh viên thực sự hiểu bài hay chỉ đang nhờ AI viết hộ?| Tôi đã sửa gì: nhận ra bài toán số 2 có rủi ro lớn về tính trung thực học thuật|
+| Gom cluster / cây OST | Đề xuất gom 3 candidate vào cây OST với outcome: "Giảm thời gian người bán phải trực group Chợ Vinhomes mà vẫn phát hiện kịp bài tìm món phù hợp". Chỉ ra các nhánh opportunity: bài phù hợp lẫn trong nhiều bài không liên quan; người bán khó theo dõi khi đang nấu/giao | Nhóm dùng cây này để loại bỏ các "solution đội lốt opportunity" (bot tự comment, chatbot bán hàng) khỏi tầng định nghĩa vấn đề |
+| Chọn candidate problem | Đồng thuận chọn đề tài Chợ Vinhomes vì có actor cụ thể hơn, dữ liệu có thể quan sát trực tiếp từ group Facebook, và nhóm có thể tiếp cận người bán thật để kiểm chứng trong buổi lab | Quyết định không bị ảnh hưởng bởi điểm bảng; nhóm ưu tiên khả năng kiểm chứng nhanh hơn điểm đánh giá nội bộ |
+| Kiểm chứng / research | Hỗ trợ nhóm soạn câu hỏi phỏng vấn theo nguyên tắc The Mom Test: hỏi về trải nghiệm thật | Nhóm xác định được rào cản Feasibility quan trọng |
+| Quy trình nhóm | Vẽ quy trình hiện tại của người bán: 1. Mở group Facebook → 2. Lướt feed tìm bài → 3. Đọc nội dung đối chiếu món → 4. Bình luận hoặc nhắn tin → 5. Thương lượng | Nhóm thống nhất quy trình tương lai: Rule (lọc từ khóa) → AI (phân loại bài có nhu cầu thực) → người bán nhận notification và tự quyết định có chào không |
+| Problem Statement | Tham gia làm rõ vấn đề AI không được tự bình luận hoặc nhắn tin chào hàng thay người bán, không được tự đặt giá hoặc xác nhận đơn. Người bán phải là người thực hiện hành động cuối cùng | Giúp nhóm tránh rủi ro đạo đức và pháp lý |
+| Mức can thiệp AI | Hiện tại thì chưa cần dùng đến Agent | Nhóm chưa chọn Agent, tránh rủi ro AI tự quyết định hành động ngoài phạm vi |
+| Quyết định | Tham gia quá trình thảo luận, đánh giá và xem xét rủi ro và sau đó đưa ra lựa chọn candidate ở CP3 | Nhóm chốt Not Yet với điều kiện: cần xác nhận được 1 phương án kỹ thuật khả thi trước khi Go |
 
 ---
 
@@ -159,12 +159,12 @@ HIỆN TẠI — Phụ thuộc tin nhắn
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Dùng AI (Gemini/ChatGPT) gợi ý thêm các pain point lặp lại trong quá trình code và làm lab huấn luyện mô hình | Gợi ý nhanh các công việc thủ công dễ bị bỏ qua như viết báo cáo, cắt ghép đề thi, dọn dẹp data | Các gợi ý đôi khi quá chung chung, không có số liệu phút/giờ cụ thể, hoặc đưa ra các bài toán vĩ mô không hợp với sinh viên/intern | Giữ lại ý 9 và 10; bỏ 3 ý còn lại vì thiếu evidence thật và quá rộng |
+| CP2 Problem Card | Dán Problem Card #2 vào prompt phản biện đóng vai PM hoài nghi | Chỉ ra đúng 2 điểm yếu: metric "chất lượng văn phong" khó đo, ranh giới AI viết hộ vs. AI hỗ trợ chưa rõ | Phản biện về rủi ro học thuật còn hời hợt; AI chỉ nêu "cần xem quy định của trường" mà không chỉ ra đây là lý do chí mạng để loại bỏ | Tự bổ sung rủi ro cụ thể: AI viết thay narrative → mentor không đánh giá được năng lực thật → vi phạm trung thực học thuật |
+| CP4 Research | Nhờ AI lên danh sách câu hỏi phỏng vấn để kiểm chứng xem mọi người có thực sự thấy phiền khi phải nhắn tin hỏi qua lại không | Cung cấp một sườn câu hỏi khá bao quát, chạm được vào khía cạnh cảm xúc (frustration) của người dùng | Câu từ của AI giống văn phong khảo sát thị trường cứng nhắc, không hợp để chat hỏi bạn bè hay đồng nghiệp | Sửa lại toàn bộ thành ngôn ngữ giao tiếp hàng ngày, biến thành câu hỏi mở để dễ khai thác insight hơn |
+| CP5 Quy trình | Nhờ AI chuyển mô tả text của quy trình test và viết docs API hiện tại sang đoạn code Mermaid flowchart | Sinh syntax Mermaid nhanh, tạo ra hình ảnh trực quan mà không phải ngồi gõ từng node | AI gộp bước "Viết docs thủ công" và "Báo cho FE" thành 1 node duy nhất làm mất bottleneck thật sự | Tự tách lại thành 2 node riêng biệt; thêm label thời gian ước lượng vào đúng bước nút thắt để làm nổi bật vấn đề |
+| CP5–6 Problem Statement | Dùng prompt: Đóng vai mentor, rà soát bản nháp Problem Statement xem metric đã đo được chưa, boundary đã rõ chưa | Phát hiện trường Boundary chưa đề cập đến việc AI có được tự động thay đổi source code hay không | AI hay lạm dụng các từ khóa sáo rỗng như "cách mạng hóa", "tối ưu hóa toàn diện" | Bỏ qua bản viết lại của AI, chỉ lấy ý tưởng về rủi ro. Tự bổ sung Boundary bằng ngôn ngữ mộc mạc: "AI chỉ sinh text tài liệu, tuyệt đối không có quyền sửa code" |
+| CP6 Mức can thiệp / quyết định | Dùng AI phân tích rủi ro nếu để AI tự động 100% trong quy trình bàn giao code | Gợi ý được các rủi ro về kỹ thuật rất chuẩn | Đưa ra các rủi ro quá xa vời ví dụ như AI tự xoá database | Chỉ chọn ra 1-2 rủi ro thực tế nhất như sai logic nghiệp vụ khiến FE gọi API chết app để thiết lập Boundary |
 
 ---
 
@@ -174,18 +174,31 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Điều tôi học được nhiều nhất là nhìn bề ngoài thì các problem của cả nhóm đều trông giống nhau nhưng nếu không ép bản thân viết Job Story cụ thể với tình huống rõ ràng, rất dễ gom các bài khác nhau thành một rồi đề xuất giải pháp không giải quyết được ai
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Nhóm có xảy ra solution-first khi đang giải quyết vấn đề, tranh biện. Thử quyết định đặt bài toán quan 1 nhóm khác, sau đó quyết định loại bỏ vấn đề đó và quyết định phân tích sau
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Có, sau khi bị phản biện "Nếu AI viết phần giải thích logic code, làm sao mentor biết sinh viên có thực sự hiểu bài không?" bởi vì nếu giải pháp giúp sinh viên nộp bài nhanh hơn mà kết quả là mentor không đánh giá được năng lực thật, thì giải pháp đó có thể gây hại nhiều hơn giúp ích.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Gần như là không vì mọi người đều đi đúng hướng và cả nhóm giúp nhau hoàn thiện, bất ngờ lớn nhất không đến từ phỏng vấn người dùng mà từ research kỹ thuật, AI hay đưa thông tin outdated về API và quyền truy cập, với bất kỳ claim kỹ thuật nào quan trọng, phải tự mở docs chính thức đọc, không thể dừng ở câu trả lời của AI
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Khó nhất là viết "AI không được làm A vì lý do B" đòi phải hình dung rõ những tình huống thất bại cụ thể
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+
+Nếu làm lại, tôi sẽ yêu cầu nhóm đi hỏi trực tiếp các bạn Front-end thay vì chỉ phỏng vấn Back-end , vì Front-end mới biết chính xác họ hay thiếu thông tin gì nhất ở các bản docs hiện tại
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
+Để tạo ra một sản phẩm AI thực tế, ta bắt đầu bằng việc tìm một Problem đủ đau: Back-end dev mất quá nhiều thời gian viết tài liệu API thủ công, dẫn đến chậm trễ bàn giao. Tiếp theo, ta vẽ lại Quy trình làm việc hiện tại để tìm ra điểm nghẽn chính nằm ở bước chuyển đổi logic code thành văn xuôi Markdown. Từ điểm nghẽn này, ta đặt ra một Metric đo lường thành công (giảm thời gian viết docs từ 20 phút xuống 5 phút). Vì AI có rủi ro sinh sai thông tin (hallucination), ta phải thiết lập Boundary (ranh giới an toàn), ví dụ như AI chỉ được sinh text cấu trúc, không được sửa code. Dựa trên ranh giới đó, ta xác định Mức can thiệp AI là Copilot – AI dự thảo tài liệu và con người duyệt lại, thay vì để AI tự động hoàn toàn. Cuối cùng, tổng hợp tất cả những yếu tố trên, ta đưa ra Quyết định đi tiếp (Go) vì giải pháp mang lại giá trị thời gian rõ rệt với rủi ro nằm trong tầm kiểm soát
 ---
 
 ## 7. Tài liệu tham khảo
