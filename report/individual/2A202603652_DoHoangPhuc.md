@@ -7,7 +7,7 @@
 
 - Họ tên: Đỗ Hoàng Phúc
 - MSSV: 2A202603652
-- Email trường: dohoangphuc795@gmail.com
+- Email trường: 26ai.phucdh@vinuni.edu.vn
 - Tên nhóm: Nhóm T Liệt (NhomTLiet)
 - Link repo nhóm: https://github.com/dzungapr6th99/K5-L3A-Day02-NhomTLiet-DiscoveryProblemFraming.git
 
@@ -177,16 +177,16 @@ HIỆN TẠI — Tổng thời gian: 45 phút vào tối Chủ Nhật
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Trình bày Problem Card #1 (Quyết toán tiền trọ) của cá nhân để nhóm xem xét. Sau thảo luận, tôi đồng thuận rút đề tài của mình và cùng nhóm chọn đề tài "Người bán đồ ăn trực group Chợ Vinhomes" làm trọng tâm. | Giúp nhóm đưa ra quyết định nhanh chóng, tập trung vào một nỗi đau thực tế của tiểu thương có thể dễ dàng đo lường thời gian hơn. |
+| Phản biện bài của bạn khác | **Câu hỏi tôi đã đặt:** *"Nếu giải pháp dùng AI tự động bình luận vào bài đăng của khách hàng, liệu có dẫn đến rủi ro bị Facebook quét tài khoản vì tính năng spam tự động không?"* | Giúp nhóm nhìn nhận rõ rào cản về chính sách nền tảng. |
+| Nhận phản biện | **Câu hỏi tôi nhận được:** *"Làm sao biết được ai dã dùng những món gì, bao nhiêu tiền trong bill"* | **Tôi đã sửa gì:** Bổ sung cơ chế dùng AI phân tích ngữ nghĩa tin nhắn chat nhóm để tự động khớp auto-match tên người với món ăn trên bill, giảm thao tác gán tên thủ công. |
+| Gom cluster / cây OST | Tham gia phân tích các ý tưởng ban đầu của nhóm để xây dựng cây Opportunity Solution Tree (OST) tập trung vào nhánh giảm thời gian canh group cho người bán. | Định hình rõ ràng cấu trúc nhánh từ outcome lớn xuống các opportunity cụ thể. |
+| Chọn candidate problem | Đồng thuận chọn đề tài người bán đồ ăn trực group Chợ Vinhomes do có quy trình quan sát và đo lường thời gian rõ ràng nhất trong ba đề tài thảo luận. | Cả nhóm chốt được hướng đi chính thức để tiến hành khảo sát và kiểm chứng (Assumption Map). |
+| Kiểm chứng / research | Tìm hiểu quy trình tìm kiếm và cập nhật thông tin bán hàng trên các group online. | Xác định những khó khăn và nhu cầu tiềm năng của người bán trong quá trình theo dõi thông tin. |
+| Quy trình nhóm | Đóng góp xây dựng luồng quy trình tương lai (Future Workflow): Tách biệt rõ ràng giữa việc máy tự động crawl dữ liệu (Rule) + AI lọc ngữ nghĩa + Con người duyệt cuối cùng (HITL). | Xây dựng được sơ đồ luồng dữ liệu mạch lạc, an toàn, không vi phạm nguyên tắc tự động hóa quá đà. |
+| Problem Statement | Tham gia gọt giũa câu phát biểu bài toán (v0 và v1) cho đề tài Chợ Vinhomes, đặc biệt chuẩn hóa mục tiêu Success Metric. | Chốt được chỉ số mục tiêu rõ ràng: giảm thời gian trực group từ 60 phút/ngày (baseline) xuống ≤ 30 phút/ngày (target), và đảm bảo số đơn không giảm. |
+| Mức can thiệp AI | Đánh giá 4 mức độ can thiệp (No AI, Rule, Workflow, Agent) và đồng thuận chọn mức Workflow có người duyệt.  | Xác định đúng giới hạn của hệ thống: AI chỉ hỗ trợ hiểu nhu cầu, con người vẫn tự phản hồi để đảm bảo chất lượng. |
+| Quyết định | Tham gia phân tích rủi ro Four Big Risks, đặc biệt nhấn mạnh rủi ro Cao về Feasibility (API Facebook) và Viability. | Chốt quyết định Not Yet đối với triển khai trực tiếp, chỉ ưu tiên thử nghiệm ngoại tuyến trước. |
 
 ---
 
@@ -196,19 +196,24 @@ HIỆN TẠI — Tổng thời gian: 45 phút vào tối Chủ Nhật
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Dùng AI quét và gợi ý nhanh các ý tưởng giải quyết bài toán thương mại điện tử nhỏ và tiểu thương địa phương. | Đưa ra góc nhìn đa dạng về các mô hình kinh doanh trên mạng xã hội. | Đề xuất các giải pháp mang tính lý thuyết vĩ mô, không bám sát vào năng lực kỹ thuật hiện tại của nhóm. | Lọc bỏ các ý tưởng quá phức tạp, tập trung vào bài toán hẹp, thực tế và dễ kiểm chứng trong phạm vi Lab. |
+| CP2 Problem Card | Dùng AI hỗ trợ định hình cấu trúc Job Story và mô tả các bước trong quy trình hiện tại. | Tạo lập nhanh khung văn bản đúng chuẩn Product Management. | Đôi khi dùng các từ ngữ mô tả hành vi quá chung chung, thiếu điểm nhấn vào bottleneck cốt lõi. | Tự chỉnh sửa lại chi tiết thời gian và thao tác thực tế dựa trên khảo sát người bán (ví dụ: thời gian lướt group cụ thể). |
+| CP4 Research | Dùng AI tổng hợp thông tin về các phương pháp trích xuất văn bản và phân loại ý định (Text Classification). | Cung cấp tài liệu tham khảo nhanh về các mô hình NLP phổ biến. | Đề xuất các giải pháp công nghệ quá nặng (như tự train mô hình deep learning từ đầu cho bài toán nhỏ). | Giới hạn lại phạm vi công nghệ bằng cách tận dụng các API có sẵn hoặc mô hình lightweight tiết kiệm chi phí. |
+| CP5 Quy trình | Dùng AI phác thảo sơ đồ luồng quy trình (Before/After) theo dạng chuẩn hóa. | Xây dựng nhanh các bảng biểu so sánh chỉ số thời gian (Before/After). | Sắp xếp các bước tương tác đôi khi bỏ qua khâu kiểm duyệt của con người (HITL), dễ vẽ ra hệ thống tự động hoàn toàn nguy hiểm. | Thêm trực tiếp bước "Con người duyệt và gửi phản hồi" vào cuối quy trình để đảm bảo tính an toàn tài chính và tương tác. |
+| CP5–6 Problem Statement | Dùng AI mài giũa câu chữ cho phần Problem Statement v0 và v1. | Làm cho câu phát biểu trở nên sắc bén, đúng trọng tâm tác động (impact). | Lạm dụng từ ngữ tiếp thị, quảng cáo (marketing buzzwords) thay vì dùng ngôn ngữ kỹ thuật/sản phẩm thực tế. | Biên tập lại câu chữ cho trung thực, gắn liền với số liệu đo lường cụ thể (baseline → target). |
+| CP6 Mức can thiệp / quyết định | Dùng AI phân tích đánh giá rủi ro 4 mặt (Value, Usability, Feasibility, Viability). | Cung cấp khung checklist đánh giá rủi ro toàn diện. | Đánh giá mức độ khả thi kỹ thuật quá lạc quan, xem nhẹ rủi ro về chính sách API của Facebook. | Hạ mức quyết định xuống **Not Yet**, thẳng thắn nhìn nhận rủi ro nền tảng đóng trước khi quyết định đầu tư thời gian làm sản phẩm. |
 
 ---
 
 ## 6. Reflection (CP7)
 
-*(Sẽ thực hiện tại CP7)*
+Qua quá trình đi từ Problem Card cá nhân đến chốt đề tài nhóm, tôi rút ra 3 bài học cốt lõi:
 
+1. Tư duy "Problem-First" và rủi ro nền tảng (Four Big Risks): Tránh "ảo giác giải pháp" (tự động hóa mọi thứ). Phân tích rủi ro giúp tôi nhận ra rào cản lớn nhất nằm ở chính sách API đóng của Facebook, từ đó mạnh dạn chốt quyết định "Not Yet" thay vì cố triển khai sản phẩm thiếu khả thi.
+
+2. Giá trị của Human-in-the-loop (Augment thay vì Automate): Dù là bài toán chia tiền trọ hay tổng hợp đơn hàng, AI chỉ nên đóng vai trò hỗ trợ (Augment) trích xuất dữ liệu. Con người bắt buộc phải là người duyệt cuối cùng để kiểm soát rủi ro AI "bịa" (hallucination) hoặc tính toán sai.
+
+3. Sự đánh đổi và Success Metric thực chất: Sẵn sàng rút đề tài cá nhân tâm đắc để tập trung vào bài toán của nhóm dễ đo lường (thu hẹp phạm vi). Tôi cũng hiểu rằng Success Metric phải là giá trị thực mang lại cho người dùng (giảm thời gian trực group mà không mất đơn) chứ không phải tốc độ xử lý của mô hình AI.
 ---
 
 ## 7. Tài liệu tham khảo
