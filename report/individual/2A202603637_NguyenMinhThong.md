@@ -147,15 +147,15 @@ MỘT LẦN CHUYỂN NƠI Ở — chưa có số
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
 | Pitch Problem Card | Đưa Card #1 (người bán đồ ăn phải trực group Chợ Vinhomes) vào vòng hội tụ CP3, pitch với team | Nhóm chọn đề tài này làm candidate dù điểm (25) thấp hơn đề tài ngữ cảnh của Bình (26), vì giới hạn được vào một quy trình bán hàng cụ thể (báo cáo nhóm mục 2.4) |
-| Phản biện bài của bạn khác | | |
-| Nhận phản biện | Thầy là người phản biện chính, về scope ban đầu của tôi: chỉ là luồng thông báo bằng Messenger bot, không có AI hay LLM (xem 6.3) | Nhận ra tiềm năng scope lớn hơn nhiều so với bản thông báo ban đầu (xem 6.3) |
-| Gom cluster / cây OST | | |
+| Phản biện bài của bạn khác | Với đề tài hệ thống dữ liệu (knowledge công ty, gộp từ bài của Dũng và Minh), tôi hỏi: đã có rất nhiều bên cung cấp dịch vụ này rồi, thì giải pháp của mình hơn gì họ? | Báo cáo cá nhân của Minh (mục 4) ghi nhận câu hỏi "có khác gì so với những ứng dụng hiện có" và đã chỉnh lại quy mô, nguyên tắc dùng AI. Báo cáo nhóm (mục 2.4) ghi: có công cụ tương tự chưa đủ để loại đề tài, phải so sánh đúng nhu cầu và khoảng trống. Đề tài này không được chọn ở CP3, lý do chính là phạm vi còn rộng |
+| Nhận phản biện | Sau khi trình bày, tôi phản biện qua lại với thầy về scope ban đầu của tôi: chỉ là luồng thông báo bằng Messenger bot, không có AI hay LLM (xem 6.3). Các bạn trong nhóm phản biện thêm hai điểm: an toàn thực phẩm, và mức giá trong bài đăng | Với phản biện của thầy, tôi đổi ý, mở rộng scope: tối thiểu thêm chatbot trả lời khách, và có tích hợp agent. Báo cáo nhóm chưa đưa hướng này vào: nhóm vẫn chốt Workflow có người bán duyệt trước mọi tương tác với khách (mục 6.2, 9.2), nên chatbot và agent là đề xuất của tôi cho bước sau. Với hai điểm của các bạn, tôi giữ nguyên, không sửa: an toàn thực phẩm nằm ngoài phạm vi bài toán (chỉ phát hiện bài tìm món); giá do người mua và người bán tự thỏa thuận, thuận mua vừa bán, nên không phải điều bài toán cần lo |
+| Gom cluster / cây OST | Không tham gia | — |
 | Chọn candidate problem | Làm chính gói A1: shortlist và bảng pitch (báo cáo nhóm mục 2.1) | Mục 2.1 báo cáo nhóm: bảng pitch 3 candidate (Chợ Vinhomes; knowledge công ty gộp từ Dũng và Minh; ngữ cảnh chat dài của Bình), mỗi candidate có actor, bottleneck và câu hỏi phản biện |
 | Kiểm chứng / research | Làm chính gói A4: assumption map và tình huống sử dụng (mục 3.1–3.2); kiểm chéo gói A6: nguồn dữ liệu và khả thi. Dùng AI tìm 5 đối thủ hoặc giải pháp có sẵn (xem mục 5) | Mục 3.1: 6 giả định, ưu tiên kiểm #1, #2, #4, #6, chưa giả định nào được xác nhận. Mục 3.2: tách nhu cầu rõ món và nhu cầu mở; Rule hai tên món chỉ khớp 1/4 câu dựng. A6: chưa có đường nhận dữ liệu group được xác nhận, Feasibility xếp Cao (mục 8.1) |
-| Quy trình nhóm | | |
+| Quy trình nhóm | Không tham gia | — |
 | Problem Statement | Kiểm chéo gói A11: Problem Statement v1 và tiêu chí đánh giá (mục 7) | Mục 7: v1 thêm recall ≥ 90%, precision ≥ 80%, 0 chi tiết tự bịa, độ bao phủ ≥ 90%, độ trễ p90 ≤ 5 phút; 5 tiêu chí và 10 ca eval minh họa |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Mức can thiệp AI | Không tham gia | — |
+| Quyết định | Không tham gia | — |
 
 ---
 
