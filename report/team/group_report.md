@@ -112,6 +112,8 @@ Trong bảng đánh giá, đề tài 3 có 26 điểm, đề tài 1 có 25 đi�
 
 ### 3.2. Nhận định định tính từ tình huống sử dụng
 
+Ghi chú kèm theo: [Phân tích tình huống và mô hình baseline](../assets/cp4-problem-analysis-notes.md).
+
 Áp dụng cách tiếp cận problem-first: phân tích hành vi và trở ngại được mô tả trong Problem Card, tách nhận định về nhu cầu khỏi giả định giải pháp. Phần này không phải kết quả kiểm chứng người dùng có hệ thống và không thay thế bằng chứng thực nghiệm.
 
 Trong tình huống được mô tả, nhu cầu ăn uống xuất hiện bằng bài đăng tự do. Người bán phải liên tục mở group để nhận ra cơ hội, trong khi còn nấu và giao hàng. Một bài có thể chỉ viết “đói quá” hoặc “có gì nóng nóng không”, nên đối chiếu đúng tên món chưa bao quát hết nhu cầu. Mặt khác, nhận ra người đang đói chưa đủ để khẳng định người bán có thể đáp ứng; còn phụ thuộc món, tồn kho, khu vực và thời điểm giao.
@@ -142,6 +144,8 @@ Trong tình huống được mô tả, nhu cầu ăn uống xuất hiện bằng
 Rule hẹp khớp 1/4 câu dựng này; không dùng tỷ lệ đó như recall thực tế hoặc bằng chứng mọi Rule đều kém AI.
 
 ### 3.3. Research giải pháp đã có
+
+Ghi chú kèm theo: [Research theo nguồn và giới hạn kết luận](../assets/cp4-research-notes.md).
 
 Đã mở nguồn ngày 09/11/2026. Cột bài học là suy luận áp dụng cho đề tài, không phải kết quả sử dụng thực tế.
 
