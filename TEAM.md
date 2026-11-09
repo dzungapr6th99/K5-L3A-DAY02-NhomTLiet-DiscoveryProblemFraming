@@ -1,7 +1,5 @@
 # Team — Nhóm T Liệt
 
-Thông tin thành viên được đối chiếu với sáu báo cáo trong `report/individual/`. Bảng phân công xác định trách nhiệm thực hiện và kiểm chéo từ lần cập nhật này; không được hiểu là toàn bộ đầu việc đã do người được giao hoàn thành trước đó. Phần đóng góp đã ghi nhận tách riêng theo nội dung báo cáo và lịch sử Git.
-
 ## Thông tin nhóm
 
 - Tên nhóm: Nhóm T Liệt — `NhomTLiet`.
