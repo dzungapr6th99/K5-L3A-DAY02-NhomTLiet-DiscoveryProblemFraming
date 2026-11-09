@@ -199,7 +199,6 @@ Nếu làm lại, tôi sẽ yêu cầu nhóm đi hỏi trực tiếp các bạn 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
 Để tạo ra một sản phẩm AI thực tế, ta bắt đầu bằng việc tìm một Problem đủ đau: Back-end dev mất quá nhiều thời gian viết tài liệu API thủ công, dẫn đến chậm trễ bàn giao. Tiếp theo, ta vẽ lại Quy trình làm việc hiện tại để tìm ra điểm nghẽn chính nằm ở bước chuyển đổi logic code thành văn xuôi Markdown. Từ điểm nghẽn này, ta đặt ra một Metric đo lường thành công (giảm thời gian viết docs từ 20 phút xuống 5 phút). Vì AI có rủi ro sinh sai thông tin (hallucination), ta phải thiết lập Boundary (ranh giới an toàn), ví dụ như AI chỉ được sinh text cấu trúc, không được sửa code. Dựa trên ranh giới đó, ta xác định Mức can thiệp AI là Copilot – AI dự thảo tài liệu và con người duyệt lại, thay vì để AI tự động hoàn toàn. Cuối cùng, tổng hợp tất cả những yếu tố trên, ta đưa ra Quyết định đi tiếp (Go) vì giải pháp mang lại giá trị thời gian rõ rệt với rủi ro nằm trong tầm kiểm soát
-
 ---
 
 ## 7. Tài liệu tham khảo
